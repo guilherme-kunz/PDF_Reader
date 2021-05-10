@@ -1,7 +1,10 @@
-#Mon May 10 10:17:54 BRT 2021
-base.0=C\:\\Users\\guilherme.kunz_est\\Downloads\\starter\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Mon May 10 17:53:05 BRT 2021
+path.2=classes_0.dex
 path.1=classes.dex
-renamed.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\guilherme.kunz_est\\Downloads\\starter\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.2=C\:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out
+base.1=C\:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=C\:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
