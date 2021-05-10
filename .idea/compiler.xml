@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
+      <module name="PDF_Reader" target="1.8" />
+      <module name="PDF_Reader.app" target="1.8" />
       <module name="starter" target="1.8" />
       <module name="starter.app" target="1.8" />
     </bytecodeTargetLevel>

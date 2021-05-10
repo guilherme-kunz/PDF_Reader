@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/starter.iml" filepath="$PROJECT_DIR$/.idea/modules/starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/starter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/starter.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/starter.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/starter.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PDF_Reader.iml" filepath="$PROJECT_DIR$/.idea/modules/PDF_Reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PDF_Reader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PDF_Reader.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/PDF_Reader.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/PDF_Reader.core.iml" />
     </modules>
   </component>
 </project>
