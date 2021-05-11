@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\6a367c50194e76a02e95e9b8a4d83de3\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\02077d2f7bef26486118a455de46c31f\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\452c589788d5841037263464ed58f833\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\508359dddb6bd2bbe292c6c50779f648\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

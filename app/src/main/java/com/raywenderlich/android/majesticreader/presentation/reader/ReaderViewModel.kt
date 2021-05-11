@@ -45,6 +45,7 @@ import com.raywenderlich.android.majesticreader.framework.Interactors
 import com.raywenderlich.android.majesticreader.framework.MajesticViewModel
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import java.io.IOException
 
 class ReaderViewModel(application: Application, interactors: Interactors) : MajesticViewModel
@@ -85,7 +86,9 @@ class ReaderViewModel(application: Application, interactors: Interactors) : Maje
   }
 
   val isInLibrary: MediatorLiveData<Boolean> = MediatorLiveData<Boolean>().apply {
-    addSource(document) { document -> GlobalScope.launch { postValue(isInLibrary(document)) } }
+    addSource(document) {
+      GlobalScope.launch { postValue(isInLibrary(it)) }
+    }
   }
 
   val renderer = MediatorLiveData<PdfRenderer>().apply {
@@ -105,12 +108,13 @@ class ReaderViewModel(application: Application, interactors: Interactors) : Maje
       bookmarks.value?.any { it.page == currentPage.value?.index } == true
 
   private suspend fun isInLibrary(document: Document) =
-          interactors.getDocuments().any { it.url == document.url }
+      interactors.getDocuments().any { it.url == document.url }
 
   fun loadArguments(arguments: Bundle?) {
     if (arguments == null) {
       return
     }
+
     currentPage.apply {
       addSource(renderer) { renderer ->
         GlobalScope.launch {
@@ -122,18 +126,23 @@ class ReaderViewModel(application: Application, interactors: Interactors) : Maje
           }
         }
       }
+
+      // 2
+      val documentFromArguments = arguments.get(DOCUMENT_ARG) as Document? ?: Document.EMPTY
+
+      // 3
+      val lastOpenDocument = interactors.getOpenDocument()
+
+      // 4
+      document.value = when {
+        documentFromArguments != Document.EMPTY -> documentFromArguments
+        documentFromArguments == Document.EMPTY && lastOpenDocument != Document.EMPTY -> lastOpenDocument
+        else -> Document.EMPTY
+      }
+
+      // 5
+      document.value?.let { interactors.setOpenDocument(it) }
     }
-
-    val documentFromArguments = arguments.get(DOCUMENT_ARG) as Document? ?: Document.EMPTY
-
-    val lastOpenDocument = interactors.getOpenDocument()
-
-    document.value = when {
-      documentFromArguments != Document.EMPTY -> documentFromArguments
-      documentFromArguments == Document.EMPTY && lastOpenDocument != Document.EMPTY -> lastOpenDocument
-      else -> Document.EMPTY
-    }
-    document.value?.let { interactors.setOpenDocument(it) }
   }
 
   fun openDocument(uri: Uri) {

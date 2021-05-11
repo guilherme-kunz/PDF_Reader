@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\59d380234c88273b8f12ea14d436a63c\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\ba5dbaf00e261dc409b6a092cf82caef\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\6a367c50194e76a02e95e9b8a4d83de3\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\guilherme.kunz_est\\.gradle\\caches\\transforms-2\\files-2.1\\02077d2f7bef26486118a455de46c31f\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

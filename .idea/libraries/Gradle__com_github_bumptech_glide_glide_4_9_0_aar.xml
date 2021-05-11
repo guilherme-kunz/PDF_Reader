@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide:4.9.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d5a29a63f760dc0f51b9543e7c6758/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d5a29a63f760dc0f51b9543e7c6758/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30d5a29a63f760dc0f51b9543e7c6758/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d14cb9e8f1b9064c53b42d0711b0552e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d14cb9e8f1b9064c53b42d0711b0552e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d14cb9e8f1b9064c53b42d0711b0552e/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

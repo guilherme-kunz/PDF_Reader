@@ -5,6 +5,6 @@ import com.raywenderlich.android.majesticreader.domain.Bookmark
 import com.raywenderlich.android.majesticreader.domain.Document
 
 class RemoveBookmark(private val bookmarksRepository: BookmarkRepository) {
-    suspend operator fun invoke(document: Document, bookmark: Bookmark) = bookmarksRepository
-            .removeBookmark(document, bookmark)
+  suspend operator fun invoke(document: Document, bookmark: Bookmark) = bookmarksRepository
+      .removeBookmark(document, bookmark)
 }

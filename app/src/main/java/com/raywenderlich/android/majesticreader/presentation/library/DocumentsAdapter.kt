@@ -44,9 +44,9 @@ import kotlinx.android.synthetic.main.item_document.view.*
 
 
 class DocumentsAdapter(
-        private val documents: MutableList<Document> = mutableListOf(),
-        private val glide: RequestManager,
-        private val itemClickListener: (Document) -> Unit
+    private val documents: MutableList<Document> = mutableListOf(),
+    private val glide: RequestManager,
+    private val itemClickListener: (Document) -> Unit
 ) : RecyclerView.Adapter<DocumentsAdapter.ViewHolder>() {
 
   class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

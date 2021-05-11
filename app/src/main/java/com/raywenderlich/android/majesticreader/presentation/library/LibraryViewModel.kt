@@ -57,6 +57,7 @@ class LibraryViewModel(application: Application, interactors: Interactors)
       withContext(Dispatchers.IO) {
         interactors.addDocument(Document(uri.toString(), "", 0, ""))
       }
+
       loadDocuments()
     }
   }

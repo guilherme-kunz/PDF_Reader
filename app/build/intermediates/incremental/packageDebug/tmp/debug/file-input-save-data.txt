@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 10 14:22:10 BRT 2021
+#Tue May 11 10:07:39 BRT 2021
 1.base=C\:\\Users\\guilherme.kunz_est\\Documents\\Android Studio\\PDF_Reader\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 2.path=classes_0.dex
 0.baseType=DIRECTORY

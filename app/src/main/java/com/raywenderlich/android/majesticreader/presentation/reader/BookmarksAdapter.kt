@@ -40,8 +40,8 @@ import com.raywenderlich.android.majesticreader.domain.Bookmark
 import kotlinx.android.synthetic.main.item_bookmark.view.*
 
 class BookmarksAdapter(
-        private val bookmarks: MutableList<Bookmark> = mutableListOf(),
-        private val itemClickListener: (Bookmark) -> Unit
+    private val bookmarks: MutableList<Bookmark> = mutableListOf(),
+    private val itemClickListener: (Bookmark) -> Unit
 ) : RecyclerView.Adapter<BookmarksAdapter.ViewHolder>() {
 
   class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

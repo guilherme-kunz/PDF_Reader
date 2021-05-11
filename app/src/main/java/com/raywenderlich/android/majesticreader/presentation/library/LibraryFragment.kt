@@ -46,6 +46,7 @@ import com.raywenderlich.android.majesticreader.framework.MajesticViewModelFacto
 import com.raywenderlich.android.majesticreader.presentation.IntentUtil.createOpenIntent
 import com.raywenderlich.android.majesticreader.presentation.MainActivityDelegate
 import kotlinx.android.synthetic.main.fragment_library.*
+import java.lang.ClassCastException
 
 class LibraryFragment : Fragment() {
 
@@ -70,7 +71,7 @@ class LibraryFragment : Fragment() {
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                            savedInstanceState: Bundle?): View? {
+      savedInstanceState: Bundle?): View? {
     return inflater.inflate(R.layout.fragment_library, container, false)
   }
 
